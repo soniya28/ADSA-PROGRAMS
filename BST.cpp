@@ -1,3 +1,11 @@
+/*Statement :construct a binary search tree .construct a binary tree by inserting the values in the given order.
+Performing following operations on it :
+1.insert new node 
+2.Mininum data value found in the tree
+3.change a tree soo that the roles of the left and right pointers are swapped 
+4.search a value
+5.Inorder sequence
+*/
 #include<iostream>
 using namespace std;
 
