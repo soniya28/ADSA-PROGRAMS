@@ -83,9 +83,9 @@ struct node *search(struct node *root,int key)
 	{
 		return root;
 	}
-	if(key<=root->data)
+	if(key<root->data)
 		return search(root->left,key);
-	if(key>=root->data)	
+	if(key>root->data)	
 		return search(root->right,key);
 	}
 }
